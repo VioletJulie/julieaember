@@ -13,7 +13,7 @@ document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
   const c = document.getElementById('sparks');
   const ctx = c.getContext('2d');
   let w, h, dots = [];
-  const color = () => getComputedStyle(document.documentElement).getPropertyValue('--accent2').trim() || '#e8982f';
+  const color = () => getComputedStyle(document.documentElement).getPropertyValue('--accent2').trim() || '#ff8fb1';
   const resize = () => { w = c.width = innerWidth; h = c.height = innerHeight; };
   const make = (fromBottom) => ({
     x: Math.random() * w, y: fromBottom ? h + 10 : Math.random() * h,
