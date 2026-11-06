@@ -1,20 +1,20 @@
 :root {
-  --bg: #fbf7f4;
-  --ink: #2b2433;
-  --muted: #6d6478;
-  --accent: #8e6bbf;
-  --accent2: #e9a7b8;
+  --bg: #fbf6f1;
+  --ink: #2a1f1c;
+  --muted: #75625c;
+  --accent: #c2410c;
+  --accent2: #e8982f;
   --card: rgba(255, 255, 255, .65);
-  --line: rgba(43, 36, 51, .12);
+  --line: rgba(42, 31, 28, .12);
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #17131d;
-    --ink: #efe9f5;
-    --muted: #a99fb8;
-    --accent: #b99be8;
-    --accent2: #e58fa8;
+    --bg: #14100f;
+    --ink: #f5ebe4;
+    --muted: #b8a69d;
+    --accent: #ff7a3d;
+    --accent2: #ffc15e;
     --card: rgba(255, 255, 255, .05);
     --line: rgba(255, 255, 255, .12);
     color-scheme: dark;
@@ -99,3 +99,6 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 3r
   .aura, .crysalis { animation: none; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+#sparks { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+@media (prefers-reduced-motion: reduce) { #sparks { display: none; } }
