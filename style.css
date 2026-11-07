@@ -207,6 +207,13 @@ a.door:hover { transform: translateY(-6px); }
   padding: .35rem 1rem; border-radius: 999px; font-size: .9rem; font-weight: 600;
 }
 
+/* ── Photos ── */
+.photo {
+  width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 62%;
+  border-radius: var(--radius); box-shadow: var(--shadow);
+  border: 6px solid var(--surface);
+}
+
 /* ── Photo placeholders ── */
 .photo-slot {
   border-radius: var(--radius); aspect-ratio: 4 / 5;
