@@ -55,7 +55,7 @@ h1, h2, h3, .logo { font-family: "Cormorant Garamond", Georgia, serif; font-weig
   background: color-mix(in srgb, var(--bg) 70%, transparent);
   border-bottom: 1px solid var(--line);
 }
-.logo { font-size: 1.6rem; color: var(--ink); text-decoration: none; }
+.logo { font-size: 1.8rem; letter-spacing: .01em; color: var(--ink); text-decoration: none; }
 .nav nav { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; }
 .nav nav a { color: var(--muted); text-decoration: none; font-size: .9rem; letter-spacing: .04em; }
 .nav nav a:hover { color: var(--accent); }

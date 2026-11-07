@@ -16,10 +16,12 @@ document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
   const cssVar = (n, f) => getComputedStyle(document.documentElement).getPropertyValue(n).trim() || f;
   const palette = () => [cssVar('--accent2', '#ff9a6c'), cssVar('--gold', '#ffc857'), cssVar('--accent', '#c9375f'), cssVar('--violet', '#a97bd6')];
   const resize = () => { w = c.width = innerWidth; h = c.height = innerHeight; };
+  // orange & gold dominate, a little rose, just a hint of violet
+  const pick = () => { const r = Math.random(); return r < .38 ? 0 : r < .76 ? 1 : r < .95 ? 2 : 3; };
   const make = (fromBottom) => ({
     x: Math.random() * w, y: fromBottom ? h + 10 : Math.random() * h,
     r: Math.random() * 1.8 + .6, v: Math.random() * .35 + .12,
-    d: Math.random() * Math.PI * 2, a: Math.random() * .5 + .2, c: Math.floor(Math.random() * 4)
+    d: Math.random() * Math.PI * 2, a: Math.random() * .5 + .2, c: pick()
   });
   resize(); addEventListener('resize', resize);
   dots = Array.from({ length: 40 }, () => make(false));
