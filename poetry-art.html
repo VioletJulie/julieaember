@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Poetry &amp; Art · Julie AEmber</title>
-  <meta name="description" content="Poems and artwork by Julie AEmber.">
+  <title>Poetry etc. · Julie Æmber</title>
+  <meta name="description" content="Poetry, embroidery, travel, and art from Julie Aember.">
+  <link rel="icon" type="image/png" href="images/butterfly.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,30 +16,66 @@
   <canvas id="sparks" aria-hidden="true"></canvas>
 
   <header class="nav">
-    <a href="index.html" class="logo" aria-label="Julie AEmber, home">Julie Æmber</a>
+    <a href="index.html" class="logo" aria-label="Julie Aember, home">Julie Æmber</a>
     <nav>
-      <a href="ember.html">Crysalis</a>
+      <a href="crysalis.html">Crysalis</a>
       <a href="language.html">Language &amp; Identity</a>
       <a href="dance.html">Dance!</a>
-      <a href="poetry-art.html" aria-current="page">Poetry &amp; Art</a>
+      <a href="poetry-art.html" aria-current="page">Poetry etc.</a>
       <a href="animals.html">Interspecies</a>
       <a href="contact.html">Connect</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="page-hero">
-      <p class="eyebrow">words &amp; images</p>
-      <h1>Poetry &amp; Art</h1>
-      <p class="lede">What the ember says when it speaks in images.</p>
+    <section class="hero page-hero">
+      <div>
+        <p class="eyebrow">words, threads &amp; wanderings</p>
+        <h1>Poetry <span>etc.</span></h1>
+        <p class="lede">What the ember says in words, threads, and images.</p>
+      </div>
     </section>
-    <section class="reveal">
-      <p>A place for my poems and artwork. Share a few pieces and I'll lay them out here.</p>
+
+    <section class="section reveal">
+      <div class="wrap">
+        <ul class="doors">
+          <li><div class="door" style="--c:var(--violet)">
+            <span class="icon">🪶</span><h3>Poetry</h3>
+            <p>Words that arrive when I'm quiet enough to hear them.</p>
+            <span class="more">Poems coming soon</span></div></li>
+          <li><div class="door" style="--c:var(--accent)">
+            <span class="icon">🧵</span><h3>Embroidery</h3>
+            <p>Stitching scenes from the places I travel to and live in, one thread at a time.</p>
+            <span class="more">Gallery coming soon</span></div></li>
+          <li><div class="door" style="--c:var(--turquoise)">
+            <span class="icon">🌎</span><h3>Travel &amp; Culture</h3>
+            <p>A nomad at heart, drawn to warm people, bright colors, music, and dancing wherever I go.</p>
+            <span class="more">Stories coming soon</span></div></li>
+          <li><div class="door" style="--c:var(--gold)">
+            <span class="icon">🎨</span><h3>Art</h3>
+            <p>Color, texture, and whatever else wants to be made.</p>
+            <span class="more">Coming soon</span></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section tint-violet reveal">
+      <div class="wrap center">
+        <p class="eyebrow">Little moments</p>
+        <h2>Snapshots</h2>
+        <div class="gallery">
+          <div class="photo-slot">Photo</div>
+          <div class="photo-slot">Photo</div>
+          <div class="photo-slot">Photo</div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Julie Æmber</p>
+    <p class="sig">Living another way. Let me show you.</p>
+    <div class="links"><a href="index.html">Home</a> <a href="crysalis.html">Crysalis</a> <a href="language.html">Language &amp; Identity</a> <a href="dance.html">Dance!</a> <a href="poetry-art.html">Poetry etc.</a> <a href="animals.html">Interspecies</a> <a href="contact.html">Connect</a> <a href="https://www.instagram.com/crysalis.live/" target="_blank" rel="noopener">Instagram</a></div>
+    <small>© <span id="year">2026</span> Julie Æmber</small>
   </footer>
 
   <script src="script.js"></script>

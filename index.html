@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Julie AEmber</title>
-  <meta name="description" content="Julie AEmber: woman, teacher of confident communication, dancer, poet, artist, and student of interspecies communication.">
+  <title>Julie Æmber</title>
+  <meta name="description" content="Julie Aember: woman, teacher, dancer, poet, artist. Dance, language & identity, and transformation.">
+  <link rel="icon" type="image/png" href="images/butterfly.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,12 +16,12 @@
   <canvas id="sparks" aria-hidden="true"></canvas>
 
   <header class="nav">
-    <a href="index.html" class="logo" aria-label="Julie AEmber, home">Julie Æmber</a>
+    <a href="index.html" class="logo" aria-label="Julie Aember, home">Julie Æmber</a>
     <nav>
-      <a href="ember.html">Crysalis</a>
+      <a href="crysalis.html">Crysalis</a>
       <a href="language.html">Language &amp; Identity</a>
       <a href="dance.html">Dance!</a>
-      <a href="poetry-art.html">Poetry &amp; Art</a>
+      <a href="poetry-art.html">Poetry etc.</a>
       <a href="animals.html">Interspecies</a>
       <a href="contact.html">Connect</a>
     </nav>
@@ -28,36 +29,83 @@
 
   <main id="top">
     <section class="hero">
-      <p class="eyebrow">woman · teacher · dancer · poet · artist</p>
-      <h1><em>always<br>magical ~~</em></h1>
-      <p class="lede">Welcome. This is all of me, in one place.</p>
-      <a href="#doors" class="scroll" aria-label="Scroll down">↓</a>
+      <div>
+        <p class="eyebrow">woman · teacher · dancer · poet · artist</p>
+        <h1><em>always<br>magical ~~</em></h1>
+        <p class="lede">Welcome. This is all of me, in one place.</p>
+        <p class="threads">Dance <b>✦</b> Language &amp; Identity <b>✦</b> Transformation</p>
+        <a class="btn" href="#doors">Come in</a><a class="btn ghost" href="contact.html">Say hello</a>
+      </div>
     </section>
 
-    <section id="doors" class="reveal">
-      <h2>Come in</h2>
-      <p class="section-lede">Wander wherever you're drawn.</p>
-      <ul class="cards doors">
-        <li><a href="ember.html"><h3>Crysalis</h3><p>The story behind the name.</p></a></li>
-        <li><a href="language.html"><h3>Language &amp; Identity</h3><p>English, and the courage to speak as yourself.</p></a></li>
-        <li><a href="dance.html"><h3>Dance!</h3><p>For everyone, and for the people who teach it.</p></a></li>
-        <li><a href="poetry-art.html"><h3>Poetry &amp; Art</h3><p>What the ember says in words and images.</p></a></li>
-        <li><a href="animals.html"><h3>Interspecies Communication</h3><p>Still learning, and loving it.</p></a></li>
-        <li><a href="contact.html"><h3>Say hello</h3><p>I'd love to hear from you.</p></a></li>
-      </ul>
+    <section class="section reveal">
+      <div class="wrap intro">
+        <img class="portrait" src="images/julie.jpg" alt="Julie smiling">
+        <div>
+          <p class="eyebrow">Hi, I'm Julie</p>
+          <h2>A dancer, a teacher, and a seer of people.</h2>
+          <p>I'm a ballroom dancer, an English teacher with a master's in TESOL, a student of culture, a poet, and a guide for people in transition. That might sound like a lot of different things. To me, it's all one thing.</p>
+          <p>The work I do, in every form, is bringing people back into their identities, so their Self and their Shine can come back online instead of living in fear, anxiety, and judgment. I look at you the way you'd look at a seed, and I already see the tree.</p>
+          <p>My students often tell me, <em>"You're like my therapist."</em> I think what they mean is that with me, they get to be themselves. And that's where the magic starts.</p>
+          <p class="aember">Æmber is the ember of the Aether: a coal that went underground and kept glowing. Like the Feminine. Like Indigenous Knowing. Like all of Life itself.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="becoming" class="reveal becoming">
-      <p>
-        Some of my work is quieter: presence, power, and the
-        <a href="https://crysalis.live" class="crysalis" target="_blank" rel="noopener">internal authority</a>
-        that was always yours. If you feel curious, step into the magic.
-      </p>
+    <section class="section tint-violet reveal" id="doors">
+      <div class="wrap center">
+        <p class="eyebrow">Come in</p>
+        <h2>Wander wherever you're drawn</h2>
+        <p class="lede">Every door leads to the same place: more of <em>you</em>.</p>
+        <ul class="doors">
+          <li><a class="door" href="crysalis.html" style="--c:var(--violet)">
+            <span class="icon">🦋</span><h3>Crysalis</h3>
+            <p>Deep transformation and heart-led leadership for people who are ready to unfurl.</p>
+            <span class="more">Begin to unfurl →</span></a></li>
+          <li><a class="door" href="language.html" style="--c:var(--turquoise)">
+            <span class="icon">🌍</span><h3>Language &amp; Identity</h3>
+            <p>English, and the courage to speak as yourself.</p>
+            <span class="more">Find your voice →</span></a></li>
+          <li><a class="door" href="dance.html" style="--c:var(--accent)">
+            <span class="icon">💃</span><h3>Dance!</h3>
+            <p>Wedding dances, ballroom lessons, and training for the people who teach it.</p>
+            <span class="more">Step onto the floor →</span></a></li>
+          <li><a class="door" href="poetry-art.html" style="--c:var(--gold)">
+            <span class="icon">🪶</span><h3>Poetry etc.</h3>
+            <p>Poems, embroidery, travel, and other glowing things.</p>
+            <span class="more">Come wander →</span></a></li>
+          <li><a class="door" href="animals.html" style="--c:var(--accent2)">
+            <span class="icon">🦊</span><h3>Interspecies</h3>
+            <p>Listening to the other beings we share this world with. Still learning, and loving it.</p>
+            <span class="more">Listen in →</span></a></li>
+          <li><a class="door" href="contact.html" style="--c:var(--accent)">
+            <span class="icon">💌</span><h3>Say hello</h3>
+            <p>I'd love to hear from you.</p>
+            <span class="more">Connect →</span></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section tint-blush reveal">
+      <blockquote class="quote">
+        Your couple's words will glow right here. <span class="todo">testimonial goes here</span>
+        <cite>The happy couple · Wedding dance</cite>
+      </blockquote>
+    </section>
+
+    <section class="section tint-deep reveal">
+      <div class="narrow center">
+        <p class="eyebrow">What I believe</p>
+        <p class="manifesto">Everything in nature is exactly what it is. The flower doesn't apologize for blooming. When we shine as ourselves, and stay connected to each other and to all of Life, <strong>that is the most powerful thing we can do.</strong></p>
+        <a class="btn light" href="contact.html">Let's begin</a>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© <span id="year"></span> Julie Æmber</p>
+    <p class="sig">Living another way. Let me show you.</p>
+    <div class="links"><a href="index.html">Home</a> <a href="crysalis.html">Crysalis</a> <a href="language.html">Language &amp; Identity</a> <a href="dance.html">Dance!</a> <a href="poetry-art.html">Poetry etc.</a> <a href="animals.html">Interspecies</a> <a href="contact.html">Connect</a> <a href="https://www.instagram.com/crysalis.live/" target="_blank" rel="noopener">Instagram</a></div>
+    <small>© <span id="year">2026</span> Julie Æmber</small>
   </footer>
 
   <script src="script.js"></script>
